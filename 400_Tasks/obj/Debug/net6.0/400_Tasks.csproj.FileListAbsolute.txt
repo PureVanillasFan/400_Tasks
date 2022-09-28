@@ -1,0 +1,15 @@
+C:\Users\Alexandr\Desktop\С#\400_Tasks\bin\Debug\net6.0\400_Tasks.exe
+C:\Users\Alexandr\Desktop\С#\400_Tasks\bin\Debug\net6.0\400_Tasks.deps.json
+C:\Users\Alexandr\Desktop\С#\400_Tasks\bin\Debug\net6.0\400_Tasks.runtimeconfig.json
+C:\Users\Alexandr\Desktop\С#\400_Tasks\bin\Debug\net6.0\400_Tasks.dll
+C:\Users\Alexandr\Desktop\С#\400_Tasks\bin\Debug\net6.0\400_Tasks.pdb
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.csproj.AssemblyReference.cache
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.AssemblyInfoInputs.cache
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.AssemblyInfo.cs
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.dll
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\refint\400_Tasks.dll
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.pdb
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\400_Tasks.genruntimeconfig.cache
+C:\Users\Alexandr\Desktop\С#\400_Tasks\obj\Debug\net6.0\ref\400_Tasks.dll
