@@ -3,19 +3,30 @@ using System;
 namespace Taskassssssssssssssss {
  class Program {
    static void Main(string[] args) {
-      Console.Write("Введите целое шестизначное число:  ");
-    if (! int.TryParse(Console.ReadLine(), out int n)) {
-       Console.WriteLine("вы ввели некорректное число");
-       return;
-    }  
-    int cst = n / 100000;
-    int cdt = n / 10000 % 10;
-    int cet = n / 1000 % 10;
-    int cs  = n / 100 % 10;
-    int cd  = n / 10 % 10;
-    int ce  = n % 10;
-    Console.Write(cst + cdt + cet == cs + cd + ce ? 
-                      "номер билета счастливый" : "номер билета не счастливый");
+        Console.WriteLine("Введите размер многомерного массива по вертикали: ");
+    string Rows = Console.ReadLine();
+    if (Rows != "") {
+       if (int.TryParse(Rows, out int rows)) {
+          if (rows > 0) {
+             int[][] array = new int[rows][];
+             for (int i = 0; i < array.GetLength(0); i++) {
+                Console.WriteLine($"Введите для {i} сроки элементы:");
+                try {
+                   array[i] = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
+                } catch {
+                   Console.WriteLine("Ошибка ввода. Не корректная строка!");
+                   Console.ReadKey();
+                   return;
+                }
+             }
+             Console.WriteLine("Форматированный массив: ");
+             for (int i = 0; i < array.GetLength(0); i++) {
+                Array.Reverse(array[i]);
+                Console.WriteLine(string.Join(" ", array[i]));
+             }
+          } else Console.WriteLine("Длина не может быть отрицательной");
+       } else Console.WriteLine("Ошибка. Неправильное число");
+    } else Console.WriteLine("Ошибка. Пустая строка");
     Console.ReadKey();
   }
  }
